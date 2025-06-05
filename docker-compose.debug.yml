@@ -2,10 +2,10 @@
 
 services:
   mywebapp:
-    image: mywebapp
+    image: mywebapp-debug
     build:
       context: .
-      dockerfile: MyWebApp/Dockerfile
+      dockerfile: MyWebApp/debug.Dockerfile
       args:
         - configuration=Debug
     ports:

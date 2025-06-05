@@ -10,7 +10,7 @@
 			"dockerBuild": {
 				"tag": "mywebapp:dev",
 				"target": "base",
-				"dockerfile": "${workspaceFolder}/MyWebApp/Dockerfile",
+				"dockerfile": "${workspaceFolder}/MyWebApp/debug.Dockerfile",
 				"context": "${workspaceFolder}",
 				"pull": true
 			},

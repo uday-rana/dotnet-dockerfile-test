@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-noble AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-noble-chiseled-composite AS base
 WORKDIR /app
 EXPOSE 5196
 
